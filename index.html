@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {background-color: antiquewhite;}
-h1 { background-color: brown;
-    background-size: 500px 300px;
-font-size: 30px;
+        body {background-color: antiquewhite;
+        border: none;}
+        header {background-color: brown;
+    padding: 10px;
+font-size: 10px;
 text-align: center;}
+ 
+
+
 .imagem1 { width:1333px ;
 height: auto;}
 
@@ -23,9 +27,13 @@ height: auto;}
 .texto {
   width: 50%; 
   float: left; 
-  font-size: 20px;
+  font-size: 30px;
 }
-
+.titulo {border-left: 100px;
+font-size: 40px;
+text-align: center;
+color: green;
+}
 .outro-conteudo {
   width: 50%; 
   float: left; 
@@ -34,26 +42,35 @@ height: auto;}
 height: auto;
 margin: 20px;}
 background-color: red;
-#barra-vermelha {  height: 5px; /* Define a altura da barra vermelha */
-        width: 100%; /* Define a largura da barra vermelha */
-        position: absolute; /* Define a posição do elemento como absoluta */
-        bottom: 0;}
-
+footer {
+    background-color: brown;
+    margin-top: 1000px;
+    padding: 35px;
+}
+.barra-inferior {
+        background-color: brown;
+        height: 50px;
+        width: 100%;
+    position: relative;
+    top: 500px;
+}
+     .as {overflow: auto;}
 
     </style>
 </head>
+<header>
 <h1>
 about us| services| our values | state of the industry | places we work | testimonials | contact us
 </h1>
-
+</header>
 <img class="imagem1" src="https://t.ctcdn.com.br/5XPASDBUosgmBv5Ptpxcd6eTJso=/512x288/smart/filters:format(webp)/i257652.jpeg" alt="">
 
 
 <div class="container">
     <div class="texto">
-     <p2>papagaio</p2>
-        <p>passarinhos | passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |
-        passarinhos | passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |
+     <p class="titulo">papagaio</p>
+    
+        <p>passarinhos | passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos |passarinhos 
       </p>
 
     </div>
@@ -69,9 +86,7 @@ about us| services| our values | state of the industry | places we work | testim
         
     </div>
   </div>
-  
-  <div id="barra-vermelha">a</div>
-
+<div class="barra-inferior"></div>
 <body>
   
     
